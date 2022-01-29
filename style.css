@@ -1,0 +1,154 @@
+body {margin:0;}
+
+/* top navigation sticky bar */
+.navbar {
+    overflow: hidden;
+    background-color: crimson;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+            
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 11px 16px;
+    text-decoration: none;
+    font-family: Courier New;
+    font-size: 17px;
+}
+            
+.navbar a:hover {
+    background: white;
+    color: crimson;
+}
+            
+.main {
+    padding: 16px;
+    margin-top: 30px;
+    height: 1500px; /* Used in this example to enable scrolling */
+}
+
+@media (min-width: 600px){
+    .coding{
+        display: grid;
+        width:min-content;
+        margin: 0 auto;
+        grid-column-gap: 1em;
+        grid-template-areas: 
+        "img coding-picture"
+        "img coding-paragrapgh";
+        grid-template-columns: min-content max-content;
+    }
+    .coding-picture{
+        grid-area: img;
+        min-width: 350px;
+    }
+}
+
+.coding{
+    background: #fcbdc6; 
+    padding: 20px 0px 20px 20px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* coding picture alignment*/
+
+.coding-picture{
+    height: 450px;
+    width: 360px;  
+    margin-right: 0px;
+    box-align: left;
+    box-shadow: 10px 10px 10px #696969;
+    border-radius: 15px;
+}
+
+/* coding paragraph alignment */
+
+.coding-paragraph{
+    padding-left: 50px;
+    padding-right: 20px;
+    padding-top: 60px;
+    color: #666;
+    font-family:'Courier New', Courier, monospace; 
+    font-size: 17px;
+    line-height: 2;
+    margin-right: 20px;
+    margin: 20px;
+    max-width: 760px;
+    
+}
+
+/* beatbox*/
+
+@media (min-width: 600px){
+    .beatbox{
+        display: grid;
+        grid-template-columns: auto 380px;
+        grid-template-areas: "para img";
+        grid-column-gap: 2em;
+        
+    }
+}
+
+.beatbox{
+    padding: 20px 20px 10px 20px;
+    max-width: 100%;
+}
+
+/* beatbox image */
+
+.beatbox-image{
+    height: 450px;
+    width: 360px;  
+    box-align: right;
+    box-shadow: 10px 10px 10px grey;
+    grid-area: img;
+    border-radius: 15px;
+}
+
+/* beatbox paragraph*/
+
+.beatbox-paragraph{
+    padding-left: 50px;
+    padding-right: 20px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    color: #666;
+    font-family:'Courier New', Courier, monospace; 
+    font-size: 18px;
+    line-height: 2;
+    margin-right: 20px;
+    margin: 20px;
+    max-width: 760px;
+    grid-area: para;
+}
+
+/* contact me button */
+
+.button {
+    width: 170px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace  ;
+    background-color: crimson;
+    border: 0;
+    margin-left: 70px;
+    margin-bottom: 50px;
+    box-shadow: 3px 3px grey;
+    border-radius: 5px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+            
+.button:hover {
+    background-color: #666;
+    color: crimson;}
+.button:active {
+    background-color: white;
+    box-shadow: 0 5px #666;
+    ransform: translateY(4px);
+}
