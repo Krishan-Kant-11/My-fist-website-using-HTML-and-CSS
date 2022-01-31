@@ -135,6 +135,7 @@ body {margin:0;}
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace  ;
     background-color: crimson;
+    color: crimson;
     border: 0;
     margin-left: 70px;
     margin-bottom: 50px;
@@ -145,8 +146,9 @@ body {margin:0;}
 }
             
 .button:hover {
-    background-color: #666;
-    color: crimson;}
+    background-color: black;
+    color:crimson}
+
 .button:active {
     background-color: white;
     box-shadow: 0 5px #666;
