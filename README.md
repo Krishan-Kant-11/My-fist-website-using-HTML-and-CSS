@@ -1,9 +1,8 @@
 ## Link Of Website
 [link of website](https://krishankant.netlify.app/) <br/>
 You can also type the domain of this webiste in your browser [krishankant.netlify.app](https://krishankant.netlify.app/)
-
-## About The Project
 ***
+# About The Project
 
 This project is made with using HTML and CSS only. It is my first attempt in making a website and this website is a my personal porfolio website. 
 This website is most optimized for laptop screen, it might cause some issue with smaller screens.
