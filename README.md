@@ -1,4 +1,6 @@
+## Link Of Website
 [link of website](https://krishankant.netlify.app/) 
+You can also type the domain of this webiste in your browser [krishankant.netlify.app](https://krishankant.netlify.app/)
 
 ## About The Project
 ***
@@ -6,7 +8,7 @@
 This project is made with using HTML and CSS only. It is my first attempt in making a website and this website is a my personal porfolio website. 
 This website is most optimized for laptop screen, it might cause some issue with smaller screens.
 
-#Repository Overview
+# Repository Overview
 The repo contains seven files in total:
 1. The "index.html" file contains the source code of the home page the webiste.
 2. The "style.css" file contains the CSS code for the styling of the whole website webiste.
@@ -15,7 +17,7 @@ The repo contains seven files in total:
 5. The "About.html" file contains the source code of the about me page the webiste.
 6. Other 2 files are mainly the images used in the home page.
 
-#Compilation Guide
+# Compilation Guide
 
 If you want complie this project in your machine you can do that by using following steps:
 1. Download the whole repositoy in your machine using this [link](https://github.com/Krishan-Kant-11/My-fist-website-using-HTML-and-CSS/archive/refs/heads/master.zip).
